@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(132, 164, 236), rgb(11, 21, 78));
+    font-family: -apple-system, BlinkMacSystemFont, Roboto;
+    font-size: x-large;
+    color: white;
+    }
+
+.location, 
+.temperature {
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
+
+.tm-high-temperature {
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tm-high-temperature{
+    flex-direction: column;
+}
+
+.tm-high-degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tm-high-degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.tm-high-degree-section h3{
+    font-size: 40px;
+}
+
+.tm-low-temperature {
+    height: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tm-low-temperature{
+    flex-direction: column;
+}
+
+.tm-low-degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tm-low-degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.tm-low-degree-section h3{
+    font-size: 40px;
+}
+
+hr {
+    width: 100%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(255, 255, 255);
+    border: 0 none;
+    margin-top: 25px;
+    margin-bottom:25px;
+    }
+
